@@ -7,7 +7,6 @@ interface Teacher {
   [key: string]: any;
 }
 
-// Example usage
 const teacher3: Teacher = {
   firstName: 'John',
   lastName: 'Doe',
