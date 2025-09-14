@@ -1,4 +1,3 @@
-// Define the Teacher interface
 interface Teacher {
   readonly firstName: string;
   readonly lastName: string;
@@ -8,7 +7,6 @@ interface Teacher {
   [key: string]: any;
 }
 
-// Example usage of Teacher
 const teacher3: Teacher = {
   firstName: 'John',
   lastName: 'Doe',
@@ -19,12 +17,10 @@ const teacher3: Teacher = {
 
 console.log(teacher3);
 
-// Define the Director interface (not Directors!)
 interface Director extends Teacher {
   numberOfReports: number;
 }
 
-// Example usage of Director
 const director1: Director = {
   firstName: 'John',
   lastName: 'Doe',
