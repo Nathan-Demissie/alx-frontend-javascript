@@ -1,3 +1,6 @@
 # frontend-javascript
 
-This is a test file
+This directory is to serve as a collection of all necessary
+
+    Javascrpipt and
+    JSON files
